@@ -1,13 +1,38 @@
+/* css reset to avoid differences in browsers */
+
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0; 
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img { border: 0; }
 h1 {font-size: 6rem;
   font-family: 'lucida console', 'Courier New', monospace;
   text-decoration-line: underline;
   text-decoration-color: green;
   text-decoration-style: double;
+  text-decoration-thickness: 5px;
 }
 h2 {font-size: 2.5rem;
   font-family: 'lucida console', 'Courier New', monospace;
   text-decoration-line: underline;
   text-decoration-color: green;
+  text-decoration-thickness: 5px;
 }
 .p1 {font-size: 1.3rem;
       font-family: 'lucida console', 'Courier New', monospace;
